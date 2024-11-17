@@ -6,6 +6,7 @@ import { Visitante } from '@/components/visitante';
 import Input from '@/components/input'
 
 import *as Print from 'expo-print'
+import React from 'react';
 
 export default function ListarVisitante() {
 

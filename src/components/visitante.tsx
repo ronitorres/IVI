@@ -1,3 +1,4 @@
+import React from "react";
 import { Pressable, PressableProps, Text, View } from "react-native";
 import RNHTMLtoPDF from 'react-native-html-to-pdf';
 

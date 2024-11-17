@@ -3,11 +3,13 @@ import { useEffect, useState } from 'react';
 import { Text, View, Button, Alert, Image, KeyboardAvoidingView, StyleSheet, Platform } from 'react-native';
 import useVisitanteDatabase from '@/database/useVisitanteDatabase';
 import { VisitanteDatabase } from '@/database/useVisitanteDatabase';
+import React from 'react';
 
 const logoImage = require('../image/logoMVN2.jpeg'); // Ajuste o caminho conforme necessário
 
 export default function Index() {
   const [nome, setNome] = useState('');
+
   const [telefone, setTelefone] = useState('');
   const [observacao, setObservacao] = useState('');
   const [visitante, setVisitante] = useState<VisitanteDatabase[]>([]);
